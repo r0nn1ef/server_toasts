@@ -16,9 +16,9 @@ are no other module dependencies for this module to function.
 
 ## Installation
 
-Copy the server_toasts folder to <code>[web-root]/modules/custom</code>. Once in place, you can either use Drush to
-install the module by issuing the command <code>drush en server_toasts</code> or by browsing to
-the site's module page and enabling it from there.
+To install the module, you will need to add this repository to your composer.json file under the "repositories" section.
+Your minimum stability will also need to be set to "dev." Once your composer.json file has the necessary updates made,
+simply run <code>composer require drupal/server_toasts</code> to install the module.
 
 ## Uninstalling The Module
 
