@@ -1,8 +1,8 @@
 # Server Toasts v0.0.1-dev
 
 Server Toasts is a proof of concept module that uses Javascript server-sent events to send "Toast" messages to site users.
-<strong> ${\color{red}THIS MODULE SHOULD NOT BE USED IN A PRODUCTION ENVIRONMENT. I AM NOT RESPONSIBLE FOR SYSTEM DAMAGE OR DATA LOSS
-FROM USING THIS MODULE.}$$</strong> These same concepts could be applied to any number of use cases where you need to push 
+<strong>THIS MODULE SHOULD NOT BE USED IN A PRODUCTION ENVIRONMENT. I AM NOT RESPONSIBLE FOR SYSTEM DAMAGE OR DATA LOSS
+FROM USING THIS MODULE.</strong> These same concepts could be applied to any number of use cases where you need to push 
 a message to the user. For example, in a weather application, you could push severe weather alerts to your users 
 informing them of those alerts.
 
