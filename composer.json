@@ -2,7 +2,7 @@
   "name": "drupal/server_toasts",
   "description": "Server Toasts is a proof of concept module that uses Javascript server-sent events to send \"Toast\" messages to site users.",
   "type": "drupal-custom-module",
-  "license": "GPL-2.0-or-later",
+  "license": "GPL-3.0",
   "authors": [
     {
       "name": "Ron Ferguson (r0nn1ef)",
