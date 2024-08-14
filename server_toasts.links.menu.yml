@@ -1,0 +1,11 @@
+entity.server_toast_type.collection:
+  title: 'Toast types'
+  description: 'Manage and CRUD actions on Toast type.'
+  parent: system.admin_structure
+  route_name: entity.server_toast_type.collection
+
+entity.server_toast.collection:
+  title: 'Toasts'
+  description: 'List of toasts.'
+  route_name: entity.server_toast.collection
+  parent: system.admin_content

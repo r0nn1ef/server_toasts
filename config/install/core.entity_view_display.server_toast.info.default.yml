@@ -1,0 +1,35 @@
+uuid: ac186031-6cb0-4a2a-b54c-7ad8a8eb003e
+langcode: en
+status: true
+dependencies:
+  config:
+    - server_toasts.server_toast_type.info
+  module:
+    - text
+  enforced:
+    module:
+      - server_toasts
+id: server_toast.info.default
+targetEntityType: server_toast
+bundle: info
+mode: default
+content:
+  description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  label:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

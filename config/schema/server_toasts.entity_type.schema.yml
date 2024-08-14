@@ -1,0 +1,12 @@
+server_toasts.server_toast_type.*:
+  type: config_entity
+  label: 'Toast type config'
+  mapping:
+    id:
+      type: string
+      label: 'ID'
+    label:
+      type: label
+      label: 'Label'
+    uuid:
+      type: string

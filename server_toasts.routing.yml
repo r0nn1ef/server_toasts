@@ -1,0 +1,7 @@
+server_toasts.toasts:
+  path: '/toasts'
+  defaults:
+    _title: 'Toasts'
+    _controller: '\Drupal\server_toasts\Controller\ServerToastsController::toast'
+  requirements:
+    _permission: 'access content'

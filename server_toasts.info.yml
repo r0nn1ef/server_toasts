@@ -1,0 +1,5 @@
+name: 'Server Toasts'
+type: module
+description: 'Demo of how to use server-sent events as &quot;toast&quot; messages.'
+package: Custom
+core_version_requirement: ^10 || ^11

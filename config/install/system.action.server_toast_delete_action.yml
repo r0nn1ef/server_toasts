@@ -1,0 +1,13 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - server_toasts
+  enforced:
+    module:
+      - server_toasts
+id: server_toast_delete_action
+label: 'Delete toasts'
+type: server_toast
+plugin: entity:delete_action:server_toast
+configuration: {  }

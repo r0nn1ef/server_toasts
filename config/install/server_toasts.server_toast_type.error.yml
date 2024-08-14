@@ -1,0 +1,11 @@
+uuid: fdc82bf0-c842-409a-a2a2-0b3a01de1ce9
+langcode: en
+status: true
+dependencies:
+  module:
+    - server_toasts
+  enforced:
+    module:
+      - server_toasts
+id: error
+label: Error

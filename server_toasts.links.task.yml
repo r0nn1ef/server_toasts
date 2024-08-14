@@ -1,0 +1,26 @@
+entity.server_toast.view:
+  title: 'View'
+  route_name: entity.server_toast.canonical
+  base_route: entity.server_toast.canonical
+entity.server_toast.edit_form:
+  title: 'Edit'
+  route_name: entity.server_toast.edit_form
+  base_route: entity.server_toast.canonical
+entity.server_toast.delete_form:
+  title: 'Delete'
+  route_name: entity.server_toast.delete_form
+  base_route: entity.server_toast.canonical
+  weight: 10
+entity.server_toast.collection:
+  title: 'Toasts'
+  route_name: entity.server_toast.collection
+  base_route: system.admin_content
+  weight: 10
+entity.server_toast_type.edit_form:
+  title: 'Edit'
+  route_name: entity.server_toast_type.edit_form
+  base_route: entity.server_toast_type.edit_form
+entity.server_toast_type.collection:
+  title: 'List'
+  route_name: entity.server_toast_type.collection
+  base_route: entity.server_toast_type.collection

@@ -1,0 +1,11 @@
+server_toast.type_add:
+  title: 'Add toast type'
+  route_name: entity.server_toast_type.add_form
+  appears_on:
+    - entity.server_toast_type.collection
+
+server_toast.add_page:
+  title: 'Add toast'
+  route_name: entity.server_toast.add_page
+  appears_on:
+    - entity.server_toast.collection

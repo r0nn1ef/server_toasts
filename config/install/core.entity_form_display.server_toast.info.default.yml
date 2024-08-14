@@ -1,0 +1,42 @@
+uuid: 97f24f6e-5591-4a35-ba11-996ba30f4023
+langcode: en
+status: true
+dependencies:
+  config:
+    - server_toasts.server_toast_type.info
+  module:
+    - text
+  enforced:
+    module:
+      - server_toasts
+id: server_toast.info.default
+targetEntityType: server_toast
+bundle: info
+mode: default
+content:
+  description:
+    type: text_textarea
+    weight: 1
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  label:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 2
+    region: content
+    settings:
+      display_label: false
+    third_party_settings: {  }
+hidden:
+  created: true
+  uid: true

@@ -1,0 +1,10 @@
+entity.server_toast.edit_form:
+  route_name: entity.server_toast.edit_form
+  group: server_toast
+  title: 'Edit'
+
+entity.server_toast.delete_form:
+  route_name: entity.server_toast.delete_form
+  group: server_toast
+  title: 'Delete'
+  weight: 10

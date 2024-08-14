@@ -1,0 +1,13 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - server_toasts
+  enforced:
+    module:
+      - server_toasts
+id: server_toast_save_action
+label: 'Save toasts'
+type: server_toast
+plugin: entity:save_action:server_toast
+configuration: {  }

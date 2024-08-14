@@ -1,0 +1,12 @@
+administer server_toast types:
+  title: 'Administer toast types'
+  description: 'Maintain the types of server toast entity.'
+  restrict access: true
+view server_toast:
+  title: 'View toast'
+edit server_toast:
+  title: 'Edit toast'
+delete server_toast:
+  title: 'Delete toast'
+create server_toast:
+  title: 'Create toast'

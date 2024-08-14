@@ -1,0 +1,76 @@
+#server-toast-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  max-width: 325px;
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  z-index: 10000;
+  padding: 0;
+}
+
+#server-toast-container .toast {
+  max-width: 300px;
+  padding: 0;
+  margin-bottom: 16px;
+  border-radius: 20px;
+}
+
+#server-toast-container .toast:last-of-type {
+  margin-bottom: 0;
+}
+
+#server-toast-container .toast > * {
+  font-size: 12px;
+  padding-left: 6px;
+  color: #000;
+}
+
+#server-toast-container .toast a {
+  color: #000;
+}
+
+#server-toast-container .toast .toast-title {
+  font-size: 14px;
+  font-weight: 700;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding: 30px 14px 10px;
+}
+
+#server-toast-container .toast .toast-title {
+  padding: 0 14px;
+}
+
+#server-toast-container .toast.slide-in {
+  transform: translateX(0rem);
+}
+
+#server-toast-container .toast.toast-info {
+  background-color: #CCFFCC;
+}
+
+#server-toast-container .toast.toast-info .toast-title {
+  background-color: #99FF99;
+  color: #000;
+}
+
+#server-toast-container .toast.toast-warning {
+  background-color: #FFFF99;
+}
+
+#server-toast-container .toast.toast-warning .toast-title {
+  background-color: #FFFF66;
+  color: #000;
+}
+
+#server-toast-container .toast.toast-error {
+  background-color: #FF9999;
+}
+
+#server-toast-container .toast.toast-error .toast-title {
+  background-color: #990000;
+  color: #000;
+}

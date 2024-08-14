@@ -1,0 +1,11 @@
+uuid: 308727fa-f91a-4d25-9fc1-9093b4a1b6f3
+langcode: en
+status: true
+dependencies:
+  module:
+    - server_toasts
+  enforced:
+    module:
+      - server_toasts
+id: warning
+label: Warning

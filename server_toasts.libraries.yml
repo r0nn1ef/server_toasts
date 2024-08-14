@@ -1,0 +1,12 @@
+toasts:
+  js:
+    js/server-toasts.js: { minified: false }
+  css:
+    theme:
+      css/server-toasts.css: { minified: false }
+  dependencies:
+    - core/drupal
+    - core/drupalSettings
+    - core/jquery
+    - core/once
+  version: VERSION

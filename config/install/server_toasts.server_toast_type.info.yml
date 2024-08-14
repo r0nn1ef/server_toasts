@@ -1,0 +1,11 @@
+uuid: 9976dc69-ef09-44c6-b830-b4cad902a7e9
+langcode: en
+status: true
+dependencies:
+  module:
+    - server_toasts
+  enforced:
+    module:
+      - server_toasts
+id: info
+label: Info
