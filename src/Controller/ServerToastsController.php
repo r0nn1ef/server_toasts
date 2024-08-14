@@ -40,8 +40,6 @@ final class ServerToastsController extends ControllerBase implements ContainerIn
    * Builds the response.
    */
   public function toast(): StreamedResponse {
-    // Create a local variable for the ETM so we can query the database for 'Toast' entities.
-    $entityTypeManager = $this->entityTypeManager;
     $response = new StreamedResponse(function() {
       // Should probably inject this somehow.
       $entityTypeManager = \Drupal::entityTypeManager();
