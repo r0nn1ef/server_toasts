@@ -4,9 +4,6 @@ Server Toasts is a proof of concept module that uses Javascript server-sent even
 
 [![Watch the video](https://img.youtube.com/vi/k0ybpLb5oSI/hqdefault.jpg)](https://www.youtube.com/embed/k0ybpLb5oSI)
 
-[<img src="https://img.youtube.com/vi/k0ybpLb5oSI/hqdefault.jpg" width="600" height="300"
-/>](https://www.youtube.com/embed/k0ybpLb5oSI)
-
 <strong>THIS MODULE SHOULD NOT BE USED IN A PRODUCTION ENVIRONMENT. I AM NOT RESPONSIBLE FOR SYSTEM DAMAGE OR DATA LOSS
 FROM USING THIS MODULE.</strong> 
 
